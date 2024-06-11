@@ -1,0 +1,32 @@
+
+/* --- for col --- */
+.box{
+  background-color: #f6f6f6;
+  outline: 1px solid #e5e5e5;
+  padding: 20px;
+}
+
+/* --- for row --- */
+.rowline{
+  outline: 1px solid #ccc;
+}
+
+/* --- 5-1 dropdown menu --- */
+.dp-menu-set[data-bs-popper]{
+  right: 0;
+  left: auto;
+}
+
+/* --- 5-3 carousel control button bg --- */
+.carousel-prev-bg{
+  background-image: linear-gradient(90deg, rgba(0,0,0,.5), transparent);
+}
+.carousel-next-bg{
+  background-image: linear-gradient(-90deg, rgba(0,0,0,.5), transparent);
+}
+
+
+
+
+
+
