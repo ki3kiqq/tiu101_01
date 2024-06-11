@@ -131,23 +131,4 @@ footer a{
 .youtube{width: 1232px;margin: 0 auto;}
 .youtube iframe{margin: 0 auto;width: 1232px;height: 693px;margin-top: 30px;}
 .separator{width: 1232px;border-bottom: #4d4d4d;margin: 0 auto;margin-top: 50px;}
-
-@media screen and (max-width: 1050px) {
-    .product-details {
-      flex-wrap: wrap;
-    }
-    .product-description,
-    .product-name {
-      justify-content: center;
-      grid-template-columns: repeat(2, minmax(220px, 381px));
-    }
-    .content1 {
-      padding-bottom: 37px;
-      box-sizing: border-box;
-    }
-    .product-description1,
-    .product-description2 {
-      justify-content: center;
-      grid-template-columns: repeat(2, minmax(220px, 381px));
-    }
   }
