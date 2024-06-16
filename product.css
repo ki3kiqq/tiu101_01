@@ -1,0 +1,79 @@
+body{}
+
+.header{
+    display: flex;
+    background: #ffffff;}
+.header img{
+    width: 216px;
+    height: 92px; ;}
+.header ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0rem;}
+.header ul li a{
+    text-decoration: none;
+    display: block;
+    padding:0 30px;
+    color: #777777;
+    text-align:center;}
+    .header li{
+        font-size: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+    }
+    .header li:after{
+        content: '';
+        width: 0%;
+        height: 3px;
+        background-color: #000;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: all .3s linear;
+    }
+    .header li:hover::after{
+        width: 100%;
+    }
+.header li{
+    text-align: center;
+    line-height: 3}
+.icon{display: flex;
+        margin-left: auto;align-items: center;
+    }
+.icon img{margin-right: 25px;width: 20px;height: 20px;}
+
+.product{width: 1232px;display: flex;margin: 0 auto;margin-top: 50px;}
+.img img{width: 632px;height: 633px;}
+.title{width: 500px;margin-top: 100px;}
+.title h1{font-size: 36px;line-height:52px;font-weight: bold;}
+.title p{font-size: 24px;text-decoration: line-through;color: #777777;margin-bottom: 0;}
+.title h2{font-size: 36px;color: #0A5DD7;font-weight: bold;}
+.title a{display: block;width: 502px;height: 50px;background-color: #0A5DD7;color: white;text-align: center;line-height: 3;text-decoration: none;border-radius: 8px;}
+.title a:hover{color: white;}
+
+.info{width: 1000px;margin: 0 auto;}
+.info p{margin-bottom: 50px;}
+.seperator{width: 1232px;border-bottom: 1px solid black;margin: 0 auto;margin-top: 50px;margin-bottom: 50px;}
+
+.about a{
+    display: block;
+    text-decoration: none;}
+footer{
+    display: flex;margin-top: 50px;width: 1232px;margin: 0 auto;}
+footer a{
+    text-decoration: none;
+}
+.service a{
+    display: block;}
+.social{display: flex;margin-top: 20px;margin-bottom: 50px;}
+.social img{margin-left: 10px;}
+.about a{color: #4d4d4d;}
+.about{margin-top: 50px;}
+.service{margin-left: 80px;margin-top: 50px;}
+.service a{color: #4d4d4d;}
+.after{margin-left: 80px;margin-top: 50px;}
+.after a{display: flex;flex-direction:column;color: #4d4d4d;}
+.download{position: relative;}
+.download .android{width: 200px;position: absolute;right: 330px;bottom:130px;}
+.download .ios{width: 200px;position: absolute;right: 540px;bottom: 130px;}
